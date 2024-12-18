@@ -1,3 +1,8 @@
+body {
+   margin: 0;
+   padding: 0;
+
+}
 .development {
    font-family: "Open Sans", sans-serif;
    background-color: #f4f0f0;
@@ -64,3 +69,139 @@ color: #5C5C5C;
 margin: 0;
 margin-top: 28px;
  }
+
+ .sales {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+
+.left-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-content: center;
+   width: 470px;
+   height: 171px;
+}
+
+.left-content_header {
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 38px;
+   padding-bottom: 15px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
+   color: #56565A;
+
+}
+
+.left-content_text {
+   font-family: open sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22px;
+   padding-bottom: 30px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
+   color: #56565A;
+}
+
+.left-content_buttons {
+}
+
+button {
+   width: 142px;
+   height: 44px;
+   gap: 0px;
+   opacity: 0px;
+   background-color: #0A467E;
+   color: #FFFFFF;
+   border: none;
+   font-family: open sans;
+   font-size: 16px;
+   font-weight: 450;
+   line-height: 20px;
+   text-align: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+}
+
+.button2 {
+   margin-left: 15px;
+}
+
+.right-content {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+}
+
+.right-content__left-boxes {
+   display: flex;
+   flex-direction: column;
+   gap: 15px
+}
+
+.right-content__box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #f7f7f7;
+   border: 1px solid #ededed;
+   border-radius: 5px;
+   gap: 15px;
+   padding: 22px;
+   width: 270px;
+   height: 196px;
+}
+
+.right-content__right-box {
+   align-self: stretch;
+   height: 498px;
+   box-sizing: border-box;
+}
+
+.box-heading {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+hr {
+   width: 170px;
+   height: 0px;
+   gap: 0px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+   border: 1px solid var(--Slate-200, rgba(227, 227, 227, 1));
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.right-content__box1-description {
+   font-family: open sans;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 19px;
+   text-align: center;
+   justify-content: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
+   color: rgba(86, 86, 90, 1);
+
+
+}
