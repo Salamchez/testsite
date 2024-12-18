@@ -70,154 +70,138 @@ margin: 0;
 margin-top: 28px;
  }
 
-
-.container {
-   display: flex;
-}
- .leftblock {
-display: flex;
-flex-flow: column;
-width: 470px;
-height: 171px;
-margin: 175px 0px 175px 135px;
-
-
+ .sales {
+   margin-top: 20px;
+   margin-bottom: 20px;
  }
 
-.uptext {
-   font-family: "roboto";
-   color: #56565A;
+ .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+
+.left-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-content: center;
+   width: 470px;
+   height: 171px;
+}
+
+.left-content_header {
+   font-family: Roboto;
    font-size: 36px;
    font-weight: 700;
    line-height: 38px;
+   padding-bottom: 15px;
    text-align: left;
-   
- }
-
- .downtext {
-   font-family: "Open sans";
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
    color: #56565A;
+
+}
+
+.left-content_text {
+   font-family: open sans;
    font-size: 16px;
    font-weight: 400;
    line-height: 22px;
+   padding-bottom: 30px;
    text-align: left;
-   margin-top: 15px;
-   
- }
- .knopki {
-   display: inline-flex;
-}
-.button1 {
-   margin-right: 15px;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
+   color: #56565A;
 }
 
- button {
-   background-color: #0A467E;
-   color: white;
-   font-family: "Open sans";
-   font-family: Source Sans Pro;
-   border: none;
-   font-size: 16px;
-   font-weight: 600;
-   line-height: 20px;
-   text-align: center;
+.left-content_buttons {
+}
+
+button {
    width: 142px;
    height: 44px;
-   margin-top: 30px;
    gap: 0px;
    opacity: 0px;
+   background-color: #0A467E;
+   color: #FFFFFF;
+   border: none;
+   font-family: open sans;
+   font-size: 16px;
+   font-weight: 450;
+   line-height: 20px;
+   text-align: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+}
 
- }
+.button2 {
+   margin-left: 15px;
+}
 
- .rightblock {
+.right-content {
    display: flex;
    flex-direction: row;
-   width: 555px;
-   height: 402px;
-   margin: 60px 220px 60px 60px; 
-  
- }
+   gap: 15px;
+}
 
- .container2 {
+.right-content__left-boxes {
    display: flex;
    flex-direction: column;
-   /*
-   grid-template-columns: auto auto;
-   grid-template-rows: 1fr 1fr;
-   grid-gap: 15px;
-   width: 555px;
-   height: 402px;
-   */
+   gap: 15px
+}
 
-
- }
- 
- .blockright{
+.right-content__box {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-left: 15px;
-   background: #F7F7F7;
-   border: 1px solid #EDEDED;
+   background: #f7f7f7;
+   border: 1px solid #ededed;
    border-radius: 5px;
-
- }
-
- .lilblock {
-   display: flex;
-   flex-flow: column;
-   justify-content: center;
-   align-items: center;
+   gap: 15px;
+   padding: 22px;
    width: 270px;
    height: 196px;
-   background: #F7F7F7;
-   border: 1px solid #EDEDED;
-   border-radius: 5px;
- }
+}
 
- .lilblock2 {
+.right-content__right-box {
+   align-self: stretch;
+   height: 498px;
+   box-sizing: border-box;
+}
+
+.box-heading {
    display: flex;
-   flex-flow: column;
-   justify-content: center;
+   flex-direction: column;
    align-items: center;
-   width: 270px;
-   height: 196px;
-   margin-top: 15px;
-   background: #F7F7F7;
-   border: 1px solid #EDEDED;
-   border-radius: 5px;
-   }
+}
 
- img {
-   margin: 22px 120px 0px 120px;
- }
- h4 {
-   margin:0;
-   
- }
- 
- .bloki {
-   font-family: "open sans";
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 22px;
-   color: #56565A;
-   text-align: center;
-   padding: 10px 0px 15px 0px;
-   margin: 0;
-   border-bottom: 1px solid #E5E5E5;
+hr {
    width: 170px;
- }
+   height: 0px;
+   gap: 0px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+   border: 1px solid var(--Slate-200, rgba(227, 227, 227, 1));
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
 
- .teksti {
-   font-family: "open sans";
-   color: #56565A;
-   padding: 15px 0px 22px 0px;
-   margin: 0px 25px;
+.right-content__box1-description {
+   font-family: open sans;
    font-size: 14px;
    font-weight: 400;
    line-height: 19px;
    text-align: center;
- }
+   justify-content: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   text-transform: none;
+   color: rgba(86, 86, 90, 1);
 
+
+}
