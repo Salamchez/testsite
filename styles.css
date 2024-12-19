@@ -89,6 +89,7 @@ margin-top: 28px;
    align-content: center;
    width: 470px;
    height: 171px;
+   margin-right: 60px;
 }
 
 .left-content_header {
@@ -202,6 +203,17 @@ hr {
    text-decoration-skip-ink: none;
    text-transform: none;
    color: rgba(86, 86, 90, 1);
+}
 
+.right-content__box1-header {
+font-family: open sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(86, 86, 90, 1);
+text-transform: none;
 
 }
