@@ -1,8 +1,48 @@
-body {
-   margin: 0;
-   padding: 0;
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+   margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .development {
    font-family: "Open Sans", sans-serif;
    background-color: #f4f0f0;
@@ -53,15 +93,7 @@ h2 {
    gap: 25px;
  }
 
- span {
-   font-size: 17px;
-   font-weight: 700;
-   line-height: 23.15px;
-   color: #110C11;
-   text-transform: uppercase;
- }
-
- p {
+.card_p {
 font-size: 17px;
 font-weight: 400;
 line-height: 26px;
@@ -119,10 +151,7 @@ margin-top: 28px;
    color: #56565A;
 }
 
-.left-content_buttons {
-}
-
-button {
+.left-content_button {
    width: 142px;
    height: 44px;
    gap: 0px;
@@ -215,5 +244,113 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: rgba(86, 86, 90, 1);
 text-transform: none;
+
+}
+.page3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.page3-head {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   width: 736px;
+   margin: 72px 99px 72px 92px;
+}
+
+h3 {
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(51, 51, 51, 1);
+}
+   
+.page3-head_text {
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(51, 51, 51, 1);
+}
+
+.photos {
+   display: flex;
+   gap: 18px;
+   margin-top: 33px;
+   margin-bottom: 80px;
+}
+
+.component-title {
+   width: 927px;
+   height: 197px;
+   border-radius: 4px;
+   background-color: rgba(0, 121, 200, 1);
+   ;
+}
+
+.component-title_inside {
+   margin: 40px 50px 30px 50px;
+}
+
+
+.component-title_heading {
+   font-family: Montserrat;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 20px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   color: rgba(255, 255, 255, 1);
+}
+
+.component-title_text-button {
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 20px;
+gap: 83px;
+}
+
+h1 {
+   font-family: Montserrat;
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 44px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   color: rgba(255, 255, 255, 1);
+}
+
+.component-title_button {
+   width: 261px;
+   height: 56px;
+   top: 2204.91px;
+   left: 43px;
+   padding: 0px 39.19px 0px 37.81px;
+   gap: 0px;
+   border: none;
+   border-radius: 4px;
+   opacity: 0px;
+   background-color: rgba(255, 255, 255, 1);
+   color: rgba(0, 121, 200, 1);
+   font-family: Montserrat;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 16px;
+   text-align: center;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
 
 }
