@@ -47,7 +47,6 @@ table {
    font-family: "Open Sans", sans-serif;
    background-color: #f4f0f0;
    color: #333;
-
 }
 
 h5 {
@@ -61,7 +60,6 @@ h5 {
    background-clip: text;
    margin-bottom: 22px;
    margin-top: 80px;
-
 }
 
 h2 {
@@ -69,22 +67,7 @@ h2 {
    font-size: 46px;
    font-weight: 400;
    margin: 0;
-   margin-bottom: 80px;
-   
-}
-
-.line {
-   display: flex;
-   gap: 25px;
-   justify-content: center;
-
- }
-
-.card {
-   background-color: #ffffff;
-   width: 387px;
-   height: 225px;
-  padding: 22px;
+   margin-bottom: 80px;  
 }
 
  .solutions {
@@ -93,7 +76,20 @@ h2 {
    gap: 25px;
  }
 
-.card_p {
+ .solutions__line {
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+ }
+
+.solutions__card {
+   background-color: #ffffff;
+   width: 387px;
+   height: 225px;
+  padding: 22px;
+}
+
+.solutions__card-text {
 font-size: 17px;
 font-weight: 400;
 line-height: 26px;
@@ -124,38 +120,32 @@ margin-top: 28px;
    margin-right: 60px;
 }
 
-.left-content_header {
+.left-content__heading {
    font-family: Roboto;
    font-size: 36px;
    font-weight: 700;
    line-height: 38px;
    padding-bottom: 15px;
    text-align: left;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
    text-transform: none;
    color: #56565A;
-
 }
 
-.left-content_text {
+.left-content__text {
    font-family: open sans;
    font-size: 16px;
    font-weight: 400;
    line-height: 22px;
    padding-bottom: 30px;
    text-align: left;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
    text-transform: none;
    color: #56565A;
 }
 
-.left-content_button {
+.left-content__button {
    width: 142px;
    height: 44px;
    gap: 0px;
-   opacity: 0px;
    background-color: #0A467E;
    color: #FFFFFF;
    border: none;
@@ -164,8 +154,6 @@ margin-top: 28px;
    font-weight: 450;
    line-height: 20px;
    text-align: center;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
 }
 
 .button2 {
@@ -215,7 +203,6 @@ hr {
    height: 0px;
    gap: 0px;
    border: 1px 0px 0px 0px;
-   opacity: 0px;
    border: 1px solid var(--Slate-200, rgba(227, 227, 227, 1));
    margin-top: 15px;
    margin-bottom: 15px;
@@ -228,8 +215,6 @@ hr {
    line-height: 19px;
    text-align: center;
    justify-content: center;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
    text-transform: none;
    color: rgba(86, 86, 90, 1);
 }
@@ -240,18 +225,16 @@ font-size: 18px;
 font-weight: 700;
 line-height: 22px;
 text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: rgba(86, 86, 90, 1);
 text-transform: none;
 
 }
-.page3 {
+.galery {
    display: flex;
    flex-direction: column;
    align-items: center;
 }
-.page3-head {
+.galery__head {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -267,19 +250,15 @@ font-weight: 500;
 line-height: 28px;
 margin-bottom: 15px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: rgba(51, 51, 51, 1);
 }
    
-.page3-head_text {
+.galery__description {
 font-family: Montserrat;
 font-size: 17px;
 font-weight: 400;
 line-height: 27px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: rgba(51, 51, 51, 1);
 }
 
@@ -290,7 +269,7 @@ color: rgba(51, 51, 51, 1);
    margin-bottom: 80px;
 }
 
-.component-title {
+footer {
    width: 927px;
    height: 197px;
    border-radius: 4px;
@@ -298,23 +277,21 @@ color: rgba(51, 51, 51, 1);
    ;
 }
 
-.component-title_inside {
+.footer__block {
    margin: 40px 50px 30px 50px;
 }
 
 
-.component-title_heading {
+.footer__heading {
    font-family: Montserrat;
    font-size: 20px;
    font-weight: 400;
    line-height: 20px;
    text-align: left;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
    color: rgba(255, 255, 255, 1);
 }
 
-.component-title_text-button {
+.footer__text-button {
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -328,12 +305,10 @@ h1 {
    font-weight: 400;
    line-height: 44px;
    text-align: left;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
    color: rgba(255, 255, 255, 1);
 }
 
-.component-title_button {
+.footer__button {
    width: 261px;
    height: 56px;
    top: 2204.91px;
@@ -343,6 +318,7 @@ h1 {
    border: none;
    border-radius: 4px;
    opacity: 0px;
+   cursor: pointer;
    background-color: rgba(255, 255, 255, 1);
    color: rgba(0, 121, 200, 1);
    font-family: Montserrat;
@@ -350,7 +326,5 @@ h1 {
    font-weight: 600;
    line-height: 16px;
    text-align: center;
-   text-underline-position: from-font;
-   text-decoration-skip-ink: none;
 
 }
